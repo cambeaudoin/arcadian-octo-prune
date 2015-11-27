@@ -1,0 +1,183 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9">    <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Navigation</title>
+
+    <style>
+        .wrapper,
+        body {
+            margin-right: auto;
+            margin-left: auto
+        }
+        
+        body {
+            overflow: hidden;
+            position: relative
+        }
+        
+        .blockHeight {
+            display: block;
+            height: 136px;
+            border-radius: 5px;
+            line-height: 136px;
+            text-decoration: none
+        }
+        
+        .customtext,
+        .ie8 .customtext {
+            position: relative;
+            left: .5em;
+            font-weight: 700;
+            font-family: Arial;
+            font-size: 1.53em;
+            vertical-align: middle;
+            display: inline-block;
+            line-height: normal
+        }
+        
+        #languageLink {
+            text-align: right;
+            text-decoration: none
+        }
+        
+        #DDM {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/Manuals.png) 100% -10% no-repeat
+        }
+        
+        #KB {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/KnowledgeBase.png) 130% 100% no-repeat
+        }
+        
+        #REPAIR {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/Parts.png) 590% 20% no-repeat
+        }
+        
+        #PROD_ADV {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/productadvisory.png) 1200% -20% no-repeat
+        }
+        
+        #CONTACT {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/contactus.png) 150% 15% no-repeat
+        }
+        
+        #WIFI {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/wifi.png) 99% 50% no-repeat
+        }
+        
+        #LOGIN {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/manageaccount.png) 200% 50% no-repeat
+        }
+        
+        #PROD_REG {
+            background: url(http://www.canon.ca/support_images/RightNow_Images/home_nav/ProductRegistration.png) -20% 50% no-repeat
+        }
+        
+        #CONTACT:hover,
+        #DDM:hover,
+        #KB:hover,
+        #LOGIN:hover,
+        #PROD_ADV:hover,
+        #PROD_REG:hover,
+        #REPAIR:hover,
+        #WIFI:hover {
+            box-shadow: 4px 4px 4px #c00
+        }
+        
+        .wrapper {
+            width: 960px
+        }
+        
+        .around {
+            margin: 5px;
+            float: left;
+            background-color: #F0EBE0;
+            background-image: -ms-linear-gradient(left, #999 0, #F4F4F4 50%, #999 100%);
+            background-image: -moz-linear-gradient(left, #999 0, #F4F4F4 50%, #999 100%);
+            background-image: -o-linear-gradient(left, #999 0, #F4F4F4 50%, #999 100%);
+            background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #999), color-stop(.5, #F4F4F4), color-stop(1, #999));
+            background-image: -webkit-linear-gradient(left, #999 0, #F4F4F4 50%, #999 100%);
+            background-image: linear-gradient(to right, #999 0, #F4F4F4 50%, #999 100%);
+            border-radius: 5px
+        }
+        
+        .big {
+            width: 630px
+        }
+        
+        .med {
+            width: 310px
+        }
+        
+        .small {
+            width: 150px
+        }
+        
+        .customtext {
+            color: #fff;
+            text-shadow: 1px 1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, -1px -1px 2px #000
+        }
+        
+        .ie8 .customtext {
+            color: #00f
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="big around">
+            <a id="DDM" class="blockHeight" style="padding-right:350px;" href="/app/download" title="DRIVERS, SOFTWARE & MANUALS">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_DRIVER_SOFTWARE#</span></a>
+        </div>
+
+        <div class="med around">
+            <a id="CONTACT" class="blockHeight" style="padding-right:150px;" href="/app/contact" title="CONTACT CANON">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_CONTACT_CANON#</span></a>
+        </div>
+
+        <div class="big around">
+            <a id="KB" class="blockHeight" style="padding-right:350px;" href="/app/answers/list/c/315" title="SEARCH KNOWLEDGE BASE">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_SEARCH_KNOWLEDGE_BASE#</span></a>
+        </div>
+
+        <div class="med around">
+            <a id="WIFI" class="blockHeight" style="padding-right:150px;" href="/app/wireless" title="WIRELESS ASSISTANCE">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_WIRELESS_ASSISTANCE#</span></a>
+        </div>
+
+        <div class="med around">
+            <a id="REPAIR" class="blockHeight" style="padding-right:150px;" target="_blank" href="https://repair.canon.ca/euo/repairOnlineHome?m=euoHome&lang=en" title="BOOK A REPAIR">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_TRACK_REPAIR#</span></a>
+        </div>
+
+        <div class="med around">
+            <a id="PROD_ADV" class="blockHeight" style="padding-right:150px;" href="/app/answers/list/c/625/sort/2,2" title="PRODUCT ADVISORIES">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_PRODUCT_ADVISORIES#</span></a>
+        </div>
+
+        <div class="small around">
+            <a id="LOGIN" class="blockHeight" href="/app/account/profile" title="MANAGE YOUR ACCOUNT">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_MANAGE_YOUR_ACCOUNT#</span></a>
+        </div>
+
+        <div class="small around">
+            <a id="PROD_REG" class="blockHeight" href="/app/account/overview_reg" title="REGISTER YOUR PRODUCT">
+                <span class="customtext">#rn:msg:CUSTOM_MSG_REGISTER_YOUR_PRODUCT#</span></a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
